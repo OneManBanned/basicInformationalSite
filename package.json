@@ -1,12 +1,15 @@
 {
-  "name": "y",
+  "name": "basic information site",
   "version": "1.0.0",
   "type": "module",
   "description": "a basic informational site build in node",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --watch app.js"
   },
   "author": "brendan lawless",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
